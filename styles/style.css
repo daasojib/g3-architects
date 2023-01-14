@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+          margin: 0;
+          padding: 0;
+          font-family: 'Work Sans', sans-serif;
+}
+
+.primary-btn{
+          background-color: #FF900E;
+          color: white;
+          padding: 10px;
+          border-radius: 5px;
+}
+.button-cng{
+          margin-left: 20px;
+
+}
+.main-hr{
+          background-color: yellow;
+          padding: 10px;
+          width: 1px;
+          height: 20px;
+}
+
+/* header design */
+.nav{
+          height: 850px;
+          background: rgba(255, 144, 14, 0.2);
+          margin: 15px;
+}
+
+.nav-bar{
+          display: flex;
+          justify-content: space-between;
+          margin: 20px;
+          padding: 20px;
+}
+
+.nav-menu>ul{
+          list-style: none;
+          display: flex;
+          gap: 35px;
+}
+
+.site-title{
+          margin-bottom: 0px;
+}
+
+.nav .site-dis .site-info{
+          padding-left: 350px;
+          padding-right: 250px;
+          margin-top: 20px;
+}
+
+
+.nav .site-dis .site-info .primary-btn{
+          margin-left: 150px;
+          margin-top: 30px;
+}
+
+
+.site-dis{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+}
+
+.nav .site-dis .image-container>img{
+          height: 400px;
+          width: 850px;
+          margin-top: 120px;;
+          
+}
+
+
+/* main design starts  */
+
+.first-main{
+          display: flex;
+}
+
+.first-main .first-main-images{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          width: 50%;
+          grid-column-gap: 10px;
+          grid-row-gap: 10px;
+          margin-left: 70px;
+          margin-top: 30px;
+          margin-bottom: 30px;
+}
+
+.first-main .first-main-dis{
+          width: 50%;
+          margin-top: 180px;
+          margin-left: 100px;
+          padding: 50px;
+}
+
+.first-main .first-main-dis .primary-btn{
+          margin-top: 20px;
+}
+
+/* second main */
+
+
+.second-main{
+          display: flex;
+          padding: 30px;
+}
+
+.second-main-dis{
+          padding: 30px;
+}
+
+.second-main-dis>ul>li{
+          list-style: none;
+          margin-left: 20px;
+          margin-top: 20px;
+}
+
+.second-main-image>img{
+          padding: 20px ;
+}
+
+/* third main design */
+
+
+.third-dis{
+          padding-left: 35px;
+}
+
+.cards{
+          display: flex;
+          justify-content: space-between;
+          padding: 35px;
+          text-align: center;
+}
+
+
+
+
+
+
+/* footer design start */
+
+footer{
+          height: 80px;
+          background: #f0d7b8;
+          padding-top: 60px;
+          margin: 15px;
+}
+
+.footer-dis{
+          border-radius: 8px;
+          text-align: center;
+}
