@@ -216,7 +216,7 @@ footer{
           border-radius: 8px;
           text-align: center;
 }
-/* galaxy s8+ responsive */
+/* max-width:576px responsive */
 
 @media screen and (max-width:576px) {
           *{
@@ -308,8 +308,28 @@ footer{
                     margin-left: 100px;
                     gap: 20px;
           }
+          /* fourth main design */
 
+          .heading{
+                    text-align: left;
+                    padding-right: 100px;
+          }
 
+          .logos{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    gap: 10px;
+                    margin-right: 70px;
+                    text-align: left;
+          }
+          .fifth-main{
+                    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+                    margin-right: 130px;
+          }
+
+          footer{
+                    margin-right: 150px;
+          }
 
           .hide{
                     display: none;
