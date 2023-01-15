@@ -216,3 +216,53 @@ footer{
           border-radius: 8px;
           text-align: center;
 }
+/* galaxy s8+ responsive */
+
+@media screen and (max-width:576px) {
+          *{
+                    margin: 0;
+                    padding: 0;
+          }
+
+          .primary-btn{
+                    text-align: center;
+                    margin-right: 100px;
+          }
+
+          .nav{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+          }
+          .nav-bar{
+                    display: flex;
+                    flex-direction: column;
+          }
+          .nav-menu>ul{
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+          }
+
+          .site-info{
+                    margin-right: 100px;
+          }
+
+          .site-info .primary-btn{
+                    text-align: center;
+          }
+          .site-dis .image-container{
+                    object-fit: contain;
+          }
+          .image-container>img{
+
+          }
+
+
+
+
+          .hide{
+                    display: none;
+          }
+}
