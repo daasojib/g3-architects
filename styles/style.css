@@ -277,8 +277,36 @@ footer{
                     flex-direction: column;
           }
           .first-main-dis{
-                    background-color:
+                    margin-right: 50px;
+          }
 
+          /* second main design */
+          .second-main{
+                    display: grid;
+                    grid-template-columns: repeat(1,1fr);
+          }
+          .second-main-dis{
+                    margin: 20px;
+                    width: min-content;
+                    text-align: center;
+          }
+          .second-main-image img{
+                    height: 400px;
+                    width: 300px;
+          }
+          /* third main design */
+          .third-dis{
+                    padding-right: 70px;
+                    width: 250px;
+          }
+
+          .cards{
+                    display: flex;
+                    flex-direction: column;
+                    width: 120px;
+                    text-align: center;
+                    margin-left: 100px;
+                    gap: 20px;
           }
 
 
