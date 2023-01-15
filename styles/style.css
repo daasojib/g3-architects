@@ -252,13 +252,24 @@ footer{
           .site-info .primary-btn{
                     text-align: center;
           }
-          .site-dis .image-container{
-                    object-fit: contain;
-          }
-          .image-container>img{
-
+          .nav .site-dis .image-container>img{
+                    height: 80%;
+                    width: 100%;
           }
 
+          /* first main design */
+
+
+          .first-main{
+                    display: flex;
+                    flex-direction: column;
+          }
+
+          .first-main .first-main-images{
+
+                    display: flex;
+                    flex-direction: column;
+          }
 
 
 
