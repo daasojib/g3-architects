@@ -328,10 +328,7 @@ footer{
           }
 
           footer{
-                    margin-right: 150px;
-          }
-
-          .hide{
-                    display: none;
+                    margin-right: 100px;
+                    padding: 30px;
           }
 }
