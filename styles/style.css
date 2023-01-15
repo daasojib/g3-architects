@@ -16,12 +16,7 @@
           margin-left: 20px;
 
 }
-.main-hr{
-          background-color: yellow;
-          padding: 10px;
-          width: 1px;
-          height: 20px;
-}
+
 
 /* header design */
 .nav{
@@ -47,6 +42,10 @@
           margin-bottom: 0px;
 }
 
+.site-dis .site-title{
+          text-align: center;
+}
+
 .nav .site-dis .site-info{
           padding-left: 350px;
           padding-right: 250px;
@@ -61,6 +60,7 @@
 
 
 .site-dis{
+
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -76,8 +76,22 @@
 
 /* main design starts  */
 
+.button-cng{
+          position: relative;
+          bottom: 50px;
+          margin-left: 50px;
+}
+
 .first-main{
           display: flex;
+}
+
+.span_one{
+          color: #727272;
+}
+
+.span_two{
+          color: #FF900E;
 }
 
 .first-main .first-main-images{
@@ -120,11 +134,31 @@
           margin-top: 20px;
 }
 
+.second-main .second-main-dis>h1{
+          border-left: #FF900E;
+}
+
 .second-main-image>img{
           padding: 20px ;
 }
 
 /* third main design */
+
+.award:hover{
+          box-shadow: 10px 10px #FF900E;
+}
+
+.projects:hover{
+          box-shadow: 10px 10px #FF900E;          
+}
+
+.clients:hover{
+          box-shadow: 10px 10px #FF900E;
+}
+
+.email:hover{
+          box-shadow: 10px 10px #FF900E;
+}
 
 
 .third-dis{
